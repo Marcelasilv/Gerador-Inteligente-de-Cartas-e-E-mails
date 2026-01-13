@@ -1,0 +1,6 @@
+function gerar() {
+  texto.textContent =
+    tipo.value === "Agradecimento"
+      ? "Agradecemos seu contato e ficamos à disposição."
+      : "Gentileza verificar a pendência informada.";
+}
